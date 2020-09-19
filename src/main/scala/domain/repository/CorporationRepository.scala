@@ -1,7 +1,7 @@
-package repository
+package domain.repository
 
-import entity.{Corporation, CorporationId}
-import repository.CorporationRepository.CorporationRepositoryError
+import domain.entity.{Corporation, CorporationId}
+import CorporationRepository.CorporationRepositoryError
 
 import scala.concurrent.Future
 
